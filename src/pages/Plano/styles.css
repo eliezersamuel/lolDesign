@@ -2,6 +2,8 @@
 .planoContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5rem 0;
     animation: showPlano 0.5s ease-in 0.2s backwards;
 }
@@ -43,4 +45,17 @@
         transform: translateY(0) scale(1);
         opacity: 1;
     }
+}
+
+.resultado-container{
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.resultado-container:hover{
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.01);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.01);
+    transform: scale(1.05);
 }

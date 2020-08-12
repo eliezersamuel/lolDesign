@@ -1,0 +1,28 @@
+.resultado-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    color: white;
+}
+
+.resultado-container h1{
+    font: 700 2.5rem Poppins;
+    letter-spacing: 0.45rem;
+    margin-bottom: 1rem;
+}
+
+.resultado-container p{
+    font: 300 1.6rem Archivo;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.resultado-container span{
+    color: #E09145;
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 2rem;
+}
