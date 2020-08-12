@@ -16,7 +16,9 @@ function Plano(){
             <InputFormDial/>
             <InputFormMin/>
             <div className="botaoSubmit">
-                <button type='submit'>
+                <button
+                    type='submit'
+                >
                     Calcular
                 </button>
             </div>

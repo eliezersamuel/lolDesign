@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
+    animation: showPlano 0.5s ease-in 0.2s backwards;
 }
 
 .planoContainer:first-child{
@@ -31,4 +32,15 @@
 .botaoSubmit button:hover{
     transform: scale(1.05);
     box-shadow: 0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.35);
+}
+
+@keyframes showPlano{
+    0%{
+        transform: translateY(-20%) scale(0.8);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
 }

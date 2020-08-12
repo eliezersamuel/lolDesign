@@ -4,12 +4,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    animation: showCard 0.5s ease 0.2s backwards;
 }
 
 .cardContainer a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes showCard{
+    from{
+        transform: scale(0.9) translateX(-50%);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1) translateX(0);
+        opacity: 1;
+    }
 }
 
 @media (min-width: 700px){
