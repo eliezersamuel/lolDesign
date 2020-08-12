@@ -1,0 +1,48 @@
+.input-form-min-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.input-form{
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.input-form input{
+    width: 14rem;
+    position: relative;
+    background-color: transparent;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.8);
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: transparent;
+    text-align: center;
+}
+
+.input-form label{
+    position: absolute;
+    font-size: 1.6rem;
+    top:1rem;
+    left: 2rem;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.input-minutos:focus,
+.input-minutos:valid{
+    color: white;
+    transform: translateY(1.5rem);
+}
+
+.input-form:focus-within label,
+.input-minutos:valid + label{
+    font-size: 1rem;
+    transform: translateX(-1.6rem);
+    cursor: default;
+}

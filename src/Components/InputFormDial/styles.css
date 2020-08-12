@@ -1,0 +1,48 @@
+.input-form-dial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.input-form-dial .origem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;    
+}
+
+.input-form-dial .destino{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form-dial .origem label{
+    margin-bottom: 1rem;
+    font: 500 2rem Archivo;
+    color: white;
+}
+
+.input-form-dial .destino label{
+    margin-bottom: 1rem;
+    font: 500 2rem Archivo;
+    color: white;
+}
+
+.select-input{
+    height: 3rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0.1rem 0.1rem 0.2rem white;
+    cursor: pointer;
+}
+
+.select-input > option{
+    padding: 2rem;
+}

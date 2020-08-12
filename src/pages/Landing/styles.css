@@ -1,0 +1,20 @@
+.cardContainer{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardContainer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 700px){
+    .cardContainer{
+        flex-direction: row;
+        width: 90vw;
+    }
+}

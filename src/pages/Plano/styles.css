@@ -1,0 +1,34 @@
+
+.planoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.planoContainer:first-child{
+    padding: 0;
+}
+
+.botaoSubmit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.botaoSubmit button{
+    background-color: transparent;
+    color: white;
+    border: 0.15rem solid white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.botaoSubmit button:hover{
+    transform: scale(1.05);
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.35);
+}
