@@ -9,7 +9,7 @@ Você precisará ter o NodeJS instalado na sua máquina, e após isso, clonar es
   $ git clone https://github.com/eliezersamuel/lolDesign.git
 ```
 
-Depois disso acesse a pasta da aula que você deseja e instale as dependências executando o seguinte comando:
+Depois disso acesse a pasta que você deseja e instale as dependências executando o seguinte comando:
 ```sh
   $ yarn install # ou npm install
 ```
